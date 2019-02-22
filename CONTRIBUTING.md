@@ -104,7 +104,7 @@ Submitting PR:
 * Once the pull request is in, please do not delete the branch or close the pull request
   (unless something is wrong with it).
 * One of the WormieCorp team members, or one of the maintainers, will evaluate it within a
-	reasonable time period (which is to say usually within 1-3 weeks). Some things get evaluated
+	reasonable timespan (which is to say usually within 1-3 weeks). Some things get evaluated
 	faster or fast tracked. We are human and we have active lives outside of open source so don't
 	fret if you haven't seen any activity on your pull request within a month or two.
 	We don't have a Service Level Agreement (SLA) for pull requests.
@@ -144,12 +144,12 @@ The only reasons a pull request should be closed and resubmitted are as follows:
 ### Other general information
 If you reformat code or hit core functionality without an approval from a person on the WormieCorp Team,
 it's likely that no matter how awesome it looks afterwards, it will probably not get accepted.
-Reformatting code makes it harder for us to evaluate exactly what was changed.
+Reformatting code makes it more challenging for us to evaluate exactly what was changed.
 
 If you do these things, it will make evaluation and acceptance easy.
 Now if you stray outside of the guidelines we have above, it doesn't mean we are going to ignore
-your pull request. It will just make things harder for us.
-Harder for us roughly translates to a longer SLA for your pull request.
+your pull request. It will just make things more challenging for us.
+More challenging for us roughly translates to a longer SLA for your pull request.
 
 ## Acknowledgement
 
