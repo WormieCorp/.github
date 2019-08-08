@@ -3,7 +3,7 @@
 Please contact us directly at wormiecorp@gmail.com for any bug that might impact the security of this project.
 Please prefix the subject of your email with `[security]` in lowercase and square brackets.
 
-You will receive an acknowledgement of your report withit **24 hours**.
+You will receive an acknowledgement of your report within **24 hours**.
 
 ## Exceptions
 
