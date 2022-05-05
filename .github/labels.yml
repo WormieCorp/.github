@@ -1,125 +1,125 @@
 - name: 0 - Backlog
   color: CCCCCC
   description: "Issue is accepted, but is not ready to be worked on or not in current sprint"
-- name: 0 - _Triaging
-  color: eeeeee
+- name: "0 - _Triaging"
+  color: "eeeeee"
   description: "Issue is accepted, but a milestone has yet to be added for the issue"
   aliases: ["triage", "_triage", "0 - Triaging"]
-- name: 0 - Waiting on User
-  color: aabbdd
+- name: "0 - Waiting on User"
+  color: "aabbdd"
   description: "Insufficient information for issue or PR, issue may be closed if no response from user"
-- name: 1 - Ready
-  color: CCCCCC
+- name: "1 - Ready"
+  color: "CCCCCC"
   description: "Issue is accepted, milestone added and are ready to be worked on"
-- name: 2 - Working
-  color: CCCCCC
+- name: "2 - Working"
+  color: "CCCCCC"
   description: "A user or team member has started working on the issue"
-- name: 3 - Review
-  color: CCCCCC
+- name: "3 - Review"
+  color: "CCCCCC"
   description: "Code has been added, and is available for review as a pull request"
-- name: 4 - Done
-  color: CCCCCC
+- name: "4 - Done"
+  color: "CCCCCC"
   description: "Code has been added to the repository, and has been reviewed by a team member"
-- name: 5 - Released
-  color: CCCCCC
+- name: "5 - Released"
+  color: "CCCCCC"
   description: "The issue has been resolved, and released to the public for consumption"
-- name: ADD AUTO TESTS
-  color: 8E44AD
+- name: "ADD AUTO TESTS"
+  color: "8E44AD"
   description: "Things that typically go to Test-Kitchen - once completed, IN REGRESSION TEST SUITE label added"
-- name: ADD MANUAL TESTS
-  color: 8E44AD
+- name: "ADD MANUAL TESTS"
+  color: "8E44AD"
   description: "Manual tests has not been added for issue - once completed, IN MANUAL TEST SUITE label added"
-- name: API
-  color: 207de5
+- name: "API"
+  color: "207de5"
   description: "Issues that handles API changes, not necessarily visible to end users"
-- name: Bad Pull Request
-  color: eb6420
+- name: "Bad Pull Request"
+  color: "eb6420"
   description: "The pull request opened was not accepted, didn't follow the procedures, or was missing information"
-- name: Blocked - External
-  color: 5319e7
+- name: "Blocked - External"
+  color: "5319e7"
   description: "The issue or pull request is not fixable without a change in a upstream/external library"
-- name: BreakingChange
-  color: 5319e7
+- name: "BreakingChange"
+  color: "5319e7"
   description: "The issue will introduce backwards incompatible changes"
   aliases: ["Breaking Change"]
-- name: Bug
+- name: "Bug"
   color: "d73a4a"
   description: "Issues where something had happened which was not expected or intended"
   aliases: ["bug"]
-- name: BuildAutomation
+- name: "BuildAutomation"
   color: "0052cc"
   description: "Issues for changes to the build system, without functional changes needed to the project"
-- name: CoreTeam
+- name: "CoreTeam"
   color: "f7c6c7"
   description: "Issues that will only be accepeted from the core Chocolatey Team"
 - name: "Customer"
   color: "006b75"
   description: "Bug reported or feature requested by a licensed customer of Chocolatey"
 - name: "Detail Required"
-  color: 9C772F
-- name: Documentation
-  color: bfe5bf
+  color: "9C772F"
+- name: "Documentation"
+  color: "bfe5bf"
   description: "Issues for changes that only need to change documentation"
   aliases: ["documentation"]
 - name: "Duplicate Issue"
-  color: eb6420
+  color: "eb6420"
   description: "Issues that are duplicates of other issues"
   aliases: ["duplicate", "duplicates"]
-- name: Enhancement
-  color: 0052cc
+- name: "Enhancement"
+  color: "0052cc"
   description: "Issues that enhances existing functionality, or adds new features"
   aliases: ["enhancement"]
-- name: FeatureParity
-  color: 5319e7
-- name: Hacktoberfest
-  color: fb9904
-  description: Issues opened during hacktoberfest
-- name: hacktoberfest-accepted
-  color: 1D76DB
+- name: "FeatureParity"
+  color: "5319e7"
+- name: "Hacktoberfest"
+  color: "fb9904"
+  description: "Issues opened during hacktoberfest"
+- name: "hacktoberfest-accepted"
+  color: "1D76DB"
   description: "Pull Requests opened during hacktoberfest, and has been accepted by a team member"
 - name: "Has related issue"
-  color: 8E44AD
+  color: "8E44AD"
   description: "This issue has a related issue that would need to be addressed before this issue could be closed."
 - name: "IN MANUAL TEST SUITE"
-  color: 8E44AD
+  color: "8E44AD"
   description: "These are things that are documented to test as part of a release."
 - name: "IN REGRESSION TEST SUITE"
-  color: 8E44AD
+  color: "8E44AD"
   description: "These are things that are handled by tools like Test-Kitchen"
 - name: "Invalid / Not Issue / No repro / Not Implementing"
-  color: eb6420
+  color: "eb6420"
 - name: "invalid"
-  color: e89819
+  color: "e89819"
   description: "This is used to mark Hacktoberfest PR's as invalid"
 - name: "NO RELEASE NOTES"
-  color: CCCCCC
+  color: "CCCCCC"
   description: "Should not be included in the release notes - not enhancing or fixing end product"
 - name: "No Response / Stale"
-  color: eb6420
+  color: "eb6420"
   description: "Used on issues when additional information is requested, and no response has been given"
-- name: Priority_HIGH
-  color: e11d21
+- name: "Priority_HIGH"
+  color: "e11d21"
   description: "Issues that are considered to be a high priority to get fixed"
-- name: Priority_LOW
-  color: c7def8
+- name: "Priority_LOW"
+  color: "c7def8"
   description: "Issues that are low priority, and will most likely only be fixed by the community"
 - name: "Pro/Business"
-  color: 006b75
+  color: "006b75"
   description: "Issues only relevant for Pro or Business customers"
 - name: "Question"
-  color: eb6420
+  color: "eb6420"
   description: "Issues opened for asking questions. These should be converted to discussions"
   aliases: ["question"]
 - name: "Security"
-  color: 5319e7
+  color: "5319e7"
   description: "Issues that are related to security vulnerabilites, or other security related problems"
   aliases: ["security vulnerability"]
-- name: Tests
+- name: "Tests"
   color: 421772
   description: "Issues related to the tests (NUnit, xUnit, Pester, Etc)"
 - name: "Up For Grabs"
   color: 159818
   description: "Issues that are available by the community to work on"
 - name: "Wrong Repository"
-  color: eb6420
+  color: "eb6420"
   description: "Issues opened on the wrong repository, and could not be moved"
