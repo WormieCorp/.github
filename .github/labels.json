@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Bug",
+    "color": "d73a4a",
+    "description": "Something isn't working as expected",
+    "aliases": ["bug"]
+  }
+]
