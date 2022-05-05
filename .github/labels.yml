@@ -46,7 +46,7 @@
   color: "d73a4a"
   description: "Issues where something had happened which was not expected or intended"
   aliases: ["bug"]
-- name: "BuildAutomation"
+- name: "Buildautomation"
   color: "0052cc"
   description: "Issues for changes to the build system, without functional changes needed to the project"
 - name: "CoreTeam"
