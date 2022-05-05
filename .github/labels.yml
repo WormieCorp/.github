@@ -116,7 +116,7 @@
   aliases: ["security vulnerability"]
 - name: Tests
   color: 421772
-  description: "Issues related to the tests (NUnit, xUnit, Pester, Etc)
+  description: "Issues related to the tests (NUnit, xUnit, Pester, Etc)"
 - name: "Up For Grabs"
   color: 159818
   description: "Issues that are available by the community to work on"
