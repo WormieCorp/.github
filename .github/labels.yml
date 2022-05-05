@@ -109,6 +109,9 @@
 - name: "Question"
   color: "eb6420"
   description: "Issues opened for asking questions. These should be converted to discussions"
+- name: "Requires Upstream Change"
+  color: "E10D60"
+  description: "Requires changes to a different location once issue is fixed or implemented"
   aliases: ["question"]
 - name: "Security"
   color: "5319e7"
