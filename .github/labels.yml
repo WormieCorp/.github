@@ -1,5 +1,5 @@
-- name: 0 - Backlog
-  color: CCCCCC
+- name: "0 - Backlog"
+  color: "CCCCCC"
   description: "Issue is accepted, but is not ready to be worked on or not in current sprint"
 - name: "0 - _Triaging"
   color: "eeeeee"
@@ -115,10 +115,10 @@
   description: "Issues that are related to security vulnerabilites, or other security related problems"
   aliases: ["security vulnerability"]
 - name: "Tests"
-  color: 421772
+  color: "421772"
   description: "Issues related to the tests (NUnit, xUnit, Pester, Etc)"
 - name: "Up For Grabs"
-  color: 159818
+  color: "159818"
   description: "Issues that are available by the community to work on"
 - name: "Wrong Repository"
   color: "eb6420"
