@@ -49,7 +49,7 @@
 - name: "Build Automation"
   color: "0052cc"
   description: "Issues for changes to the build system, without functional changes needed to the project"
-  aliases: ["Buildautomation"]
+  aliases: ["BuildAutomation", "Build"]
 - name: "CoreTeam"
   color: "f7c6c7"
   description: "Issues that will only be accepeted from the core Chocolatey Team"
