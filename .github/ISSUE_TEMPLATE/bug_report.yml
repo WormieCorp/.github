@@ -67,6 +67,8 @@ body:
 
         NOTE: If the log is long, please upload the content to https://gist.github.com instead, and add the link to the created gist here instead.
       render: shell
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
