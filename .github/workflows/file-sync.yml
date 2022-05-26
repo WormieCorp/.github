@@ -9,6 +9,8 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Disable symlinks
+        run: git config --global core.symlink false
       - name: Checkout Repository
         uses: actions/checkout@v2.4.2
       - name: Run GitHub File Sync
