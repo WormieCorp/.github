@@ -1,4 +1,10 @@
 group:
+  # Common files
+  - files:
+      - source: .github/workflows/label-sync.yml
+        dest: .github/workflows/label-sync.yml
+    repos:
+      WormieCorp/ImageGallery
   - files:
       - source: .github/ISSUE_TEMPLATE/private/
         dest: .github/ISSUE_TEMPLATE/
