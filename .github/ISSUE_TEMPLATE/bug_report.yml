@@ -39,7 +39,7 @@ body:
     attributes:
       label: Expected behavior
       description: Give a clear description of what you expected to happen instead of the actual behavior.
-    valiations:
+    validations:
       required: true
   - type: textarea
     id: environment
