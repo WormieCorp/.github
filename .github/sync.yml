@@ -1,0 +1,11 @@
+group:
+  - files:
+      - source: .github/ISSUE_TEMPLATE/private/
+        dest: .github/ISSUE_TEMPLATE/
+        deleteOrphaned: true
+      - source: .github/ISSUE_TEMPLATE/config.yml
+        dest: .github/ISSUE_TEMPLATE/config.yml
+    repos: |
+      WormieCorp/ImageGallery
+      WormieCorp/GameList
+      WormieCorp/PCBS-Utility
