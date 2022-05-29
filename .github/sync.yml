@@ -8,11 +8,12 @@ group:
         replace: false
     repos:
       WormieCorp/ImageGallery
+      WormieCorp/MyGameList
   - files:
       - source: .github/ISSUE_TEMPLATE/private/
         dest: .github/ISSUE_TEMPLATE/
         deleteOrphaned: true
     repos: |
       WormieCorp/ImageGallery
-      WormieCorp/GameList
+      WormieCorp/MyGameList
       WormieCorp/PCBS-Utility
