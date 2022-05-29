@@ -6,7 +6,7 @@ group:
       - source: renovate.json
         dest: renovate.json
         replace: false
-    repos:
+    repos: |
       WormieCorp/ImageGallery
       WormieCorp/MyGameList
   - files:
