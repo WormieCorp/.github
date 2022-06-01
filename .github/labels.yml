@@ -1,5 +1,5 @@
 - name: "-1 - Testing"
-  color: "eeeeee"
+  color: "CCCCCC"
 - name: "0 - Backlog"
   color: "CCCCCC"
   description: "Issue is accepted, but is not ready to be worked on or not in current sprint"
