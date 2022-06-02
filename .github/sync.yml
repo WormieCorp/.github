@@ -7,7 +7,7 @@ group:
       - source: renovate.json
         dest: renovate.json
         replace: false
-      - source: CCVARN.yml
+      - source: .github/CCVARN.yml
         dest: CCVARN.yml
     repos: |
       WormieCorp/ImageGallery
