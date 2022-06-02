@@ -3,12 +3,14 @@ group:
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
+        replace: false
       - source: renovate.json
         dest: renovate.json
         replace: false
     repos: |
       WormieCorp/ImageGallery
       WormieCorp/MyGameList
+      WormieCorp/CCVARN
   - files:
       - source: .github/ISSUE_TEMPLATE/private/
         dest: .github/ISSUE_TEMPLATE/
