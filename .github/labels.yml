@@ -16,7 +16,7 @@
   description: "Issues where something had happened which was not expected or intended"
   aliases: ["bug"]
 - name: "Build"
-  color: "0052cc"
+  color: "197490"
   description: "Issues for changes to the build system, without functional changes needed to the project"
   aliases: ["BuildAutomation", "Build Automation"]
 - name: "Detail Required"
