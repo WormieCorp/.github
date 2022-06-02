@@ -36,7 +36,7 @@
   aliases: ["enhancement"]
 - name: "Feature"
   color: "5319e7"
-  aliases: "FeatureParity"
+  aliases: ["FeatureParity"]
 - name: "Hacktoberfest"
   color: "fb9904"
   description: "Issues opened during hacktoberfest"
