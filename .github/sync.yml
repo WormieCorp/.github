@@ -7,8 +7,6 @@ group:
       - source: renovate.json
         dest: renovate.json
         replace: false
-      - source: .github/CCVARN.yml
-        dest: CCVARN.yml
     repos: |
       WormieCorp/ImageGallery
       WormieCorp/MyGameList
@@ -21,3 +19,16 @@ group:
       WormieCorp/ImageGallery
       WormieCorp/MyGameList
       WormieCorp/PCBS-Utility
+  - files:
+    - source: .github/CCVARN-pre.yml
+      dest: CCVARN.yml
+    repos: |
+      WormieCorp/ImageGallery
+      MyGameList
+      PCBS-Utility
+  - files:
+    - source: .github/CCVARN.yml
+      dest: CCVARN.yml
+    repos: |
+      CCVARN.yml
+      
