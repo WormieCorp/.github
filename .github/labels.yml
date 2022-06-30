@@ -1,6 +1,3 @@
-- name: "API"
-  color: "207de5"
-  description: "Issues that handles API changes, not necessarily visible to end users"
 - name: "Bad Pull Request"
   color: "eb6420"
   description: "The pull request opened was not accepted, didn't follow the procedures, or was missing information"
