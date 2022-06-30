@@ -24,11 +24,10 @@ group:
       dest: CCVARN.yml
     repos: |
       WormieCorp/ImageGallery
-      MyGameList
-      PCBS-Utility
+      WormieCorp/MyGameList
+      WormieCorp/PCBS-Utility
   - files:
     - source: .github/CCVARN.yml
       dest: CCVARN.yml
     repos: |
-      CCVARN.yml
-      
+      WormieCorp/CCVARN
