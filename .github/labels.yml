@@ -86,7 +86,7 @@
   aliases: ["Has related issue"]
 - name: "IN MANUAL TEST SUITE"
   color: "8e44ad"
-  description: "These are things that are documented to test as part of a release."
+  description: "These are things that are documented to test as part of a release"
 - name: "IN REGRESSION TEST SUITE"
   color: "8e44ad"
   description: "These are things that are handled by tools like Test-Kitchen"
