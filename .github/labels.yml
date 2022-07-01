@@ -80,9 +80,10 @@
 - name: "hacktoberfest-accepted"
   color: "1d76db"
   description: "Pull Requests opened during hacktoberfest, and has been accepted by a team member"
-- name: "Has related issue"
+- name: "HasDependency"
   color: "8e44ad"
-  description: "This issue has a related issue that would need to be addressed before this issue could be closed."
+  description: "This issue has a related issue that would need to be addressed before this issue can be closed"
+  aliases: ["Has related issue"]
 - name: "IN MANUAL TEST SUITE"
   color: "8e44ad"
   description: "These are things that are documented to test as part of a release."
