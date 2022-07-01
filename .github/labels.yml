@@ -44,12 +44,12 @@
   aliases: ["Breaking Change"]
 - name: "Bug"
   color: "d73a4a"
-  description: "Issues where something has happened which was not expected or intended"
+  description: "Issues where something had happened which was not expected or intended"
   aliases: ["bug"]
-- name: "BuildAutomation"
+- name: "Build Automation"
   color: "0052cc"
   description: "Issues for changes to the build system, without functional changes needed to the project"
-  aliases: ["Build Automation", "Build"]
+  aliases: ["BuildAutomation", "Build"]
 - name: "CoreTeam"
   color: "f7c6c7"
   description: "Issues that will only be accepeted from the core Chocolatey Team"
@@ -58,7 +58,6 @@
   description: "Bug reported or feature requested by a licensed customer of Chocolatey"
 - name: "Detail Required"
   color: "9c772f"
-  description: "The issue requires additional information to know how to implement the feature, or more information to fix the bug"
 - name: "Documentation"
   color: "bfe5bf"
   description: "Issues for changes that only need to change documentation"
@@ -71,23 +70,20 @@
   color: "0052cc"
   description: "Issues that enhances existing functionality, or adds new features"
   aliases: ["enhancement"]
-- name: "Feature"
+- name: "FeatureParity"
   color: "5319e7"
-  description: "Issues that introduce new functionality to the project, instead of updating existing functionality"
-  aliases: ["FeatureParity"]
 - name: "Hacktoberfest"
   color: "fb9904"
   description: "Issues opened during hacktoberfest"
 - name: "hacktoberfest-accepted"
   color: "1d76db"
   description: "Pull Requests opened during hacktoberfest, and has been accepted by a team member"
-- name: "HasDependency"
+- name: "Has related issue"
   color: "8e44ad"
-  description: "This issue has a related issue that would need to be addressed before this issue can be closed"
-  aliases: ["Has related issue"]
+  description: "This issue has a related issue that would need to be addressed before this issue could be closed."
 - name: "IN MANUAL TEST SUITE"
   color: "8e44ad"
-  description: "These are things that are documented to test as part of a release"
+  description: "These are things that are documented to test as part of a release."
 - name: "IN REGRESSION TEST SUITE"
   color: "8e44ad"
   description: "These are things that are handled by tools like Test-Kitchen"
