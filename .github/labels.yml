@@ -46,10 +46,10 @@
   color: "d73a4a"
   description: "Issues where something has happened which was not expected or intended"
   aliases: ["bug"]
-- name: "Build Automation"
+- name: "BuildAutomation"
   color: "0052cc"
   description: "Issues for changes to the build system, without functional changes needed to the project"
-  aliases: ["BuildAutomation", "Build"]
+  aliases: ["Build Automation", "Build"]
 - name: "CoreTeam"
   color: "f7c6c7"
   description: "Issues that will only be accepeted from the core Chocolatey Team"
