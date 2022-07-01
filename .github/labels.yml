@@ -44,7 +44,7 @@
   aliases: ["Breaking Change"]
 - name: "Bug"
   color: "d73a4a"
-  description: "Issues where something had happened which was not expected or intended"
+  description: "Issues where something has happened which was not expected or intended"
   aliases: ["bug"]
 - name: "Build Automation"
   color: "0052cc"
