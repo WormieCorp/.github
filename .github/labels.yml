@@ -70,8 +70,10 @@
   color: "0052cc"
   description: "Issues that enhances existing functionality, or adds new features"
   aliases: ["enhancement"]
-- name: "FeatureParity"
+- name: "Feature"
   color: "5319e7"
+  description: "Issues that introduce new functionality to the project, instead of updating existing functionality"
+  aliases: ["FeatureParity"]
 - name: "Hacktoberfest"
   color: "fb9904"
   description: "Issues opened during hacktoberfest"
