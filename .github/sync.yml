@@ -11,6 +11,7 @@ group:
       WormieCorp/ImageGallery
       WormieCorp/MyGameList
       WormieCorp/CCVARN
+      WormieCorp/MediaManager
   - files:
       - source: .github/ISSUE_TEMPLATE/private/
         dest: .github/ISSUE_TEMPLATE/
@@ -26,6 +27,7 @@ group:
       WormieCorp/ImageGallery
       WormieCorp/MyGameList
       WormieCorp/PCBS-Utility
+      WormieCorp/MediaManager
   - files:
     - source: .github/CCVARN.yml
       dest: CCVARN.yml
