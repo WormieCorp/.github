@@ -19,5 +19,5 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
-          PR_LABELS: Build
+          PR_LABELS: BuildAutomation
           COMMIT_PREFIX: "chore(sync): "
