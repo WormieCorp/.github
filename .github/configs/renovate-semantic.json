@@ -12,7 +12,7 @@
 			"semanticCommitType": "build"
         },
 		{
-			"matchPackagePrefixes": ["Avalonia"],
+			"matchPackagePrefixes": ["Avalonia", "CommunityToolkit.Mvvm"],
 			"groupName": "Avalonia Packages",
 			"semanticCommitType": "fix",
 			"addLabels": ["Dependency Change", "Enhancement"]
