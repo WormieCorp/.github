@@ -1,0 +1,54 @@
+{
+	"extends": [
+		"config:base"
+	],
+	"semanticCommits": "enabled",
+	"labels": ["dependencies"],
+    "packageRules": [
+        {
+            "matchManagers": ["github-actions"],
+            "commitMessagePrefix": "build(deps): "
+        },
+		{
+			"matchPackagePrefixes": ["Avalonia"],
+			"groupName": "avalonia packages",
+			"semanticCommitType": "fix",
+			"addLabels": ["enhancement"]
+		},
+		{
+			"matchPackagePrefixes": ["Serilog"],
+			"groupName": "serilog packages",
+			"semanticCommitType": "fix",
+			"addLabels": ["enhancement"]
+		},
+		{
+			"matchPackagePrefixes": ["Cake", "cake"],
+			"groupName": "cake packages",
+			"addLabels": ["build"],
+			"semanticCommitType": "build"
+		},
+		{
+			"matchPaths": ["*.Tests.csproj", "dotnet-tools.json", "*.cake", "*.yml"],
+			"addLabels": ["build"],
+			"automerge": true,
+			"semanticCommitType": "build"
+		},
+		{
+			"matchPackageNames": [
+				"LiteDB",
+				"System.Net.NameResolution",
+				"DryIoc"
+			],
+			"semanticCommitType": "fix",
+			"addLabels": ["enhancement"]
+		},
+		{
+			"matchPackageNames": [
+				"GitVersionTask"
+			],
+			"automerge": true,
+			"semanticCommitType": "build",
+			"addLabels": ["build"]
+		}
+	]
+}

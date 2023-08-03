@@ -8,25 +8,19 @@ group:
         dest: renovate.json
         replace: false
     repos: |
-      WormieCorp/ImageGallery
-      WormieCorp/MyGameList
       WormieCorp/CCVARN
       WormieCorp/MediaManager
   - files:
-      - source: .github/ISSUE_TEMPLATE/private/
-        dest: .github/ISSUE_TEMPLATE/
-        deleteOrphaned: true
-    repos: |
-      WormieCorp/ImageGallery
-      WormieCorp/MyGameList
-      WormieCorp/PCBS-Utility
+      - source: .github/configs/renovate-semantic.json
+        dest: renovate.json
+        replace: true
+    repes: |
+      WormieCorp/CCVARN
+      WormieCorp/MediaManager
   - files:
     - source: .github/CCVARN-pre.yml
       dest: CCVARN.yml
     repos: |
-      WormieCorp/ImageGallery
-      WormieCorp/MyGameList
-      WormieCorp/PCBS-Utility
       WormieCorp/MediaManager
   - files:
     - source: .github/CCVARN.yml
