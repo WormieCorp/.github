@@ -7,29 +7,30 @@
     "packageRules": [
         {
             "matchManagers": ["github-actions"],
-            "commitMessagePrefix": "build(deps): "
+			"addLabels": ["BuildAutomation", "Dependency Change"],
+			"semanticCommitType": "build"
         },
 		{
 			"matchPackagePrefixes": ["Avalonia"],
-			"groupName": "avalonia packages",
+			"groupName": "Avalonia Packages",
 			"semanticCommitType": "fix",
-			"addLabels": ["enhancement"]
+			"addLabels": ["Dependency Change", "Enhancement"]
 		},
 		{
 			"matchPackagePrefixes": ["Serilog"],
-			"groupName": "serilog packages",
+			"groupName": "Serilog Packages",
 			"semanticCommitType": "fix",
-			"addLabels": ["enhancement"]
+			"addLabels": ["Dependency Change", "Enhancement"]
 		},
 		{
 			"matchPackagePrefixes": ["Cake", "cake"],
-			"groupName": "cake packages",
-			"addLabels": ["build"],
+			"groupName": "Cake Packages",
+			"addLabels": ["BuildAutomation", "Dependency Change"],
 			"semanticCommitType": "build"
 		},
 		{
 			"matchPaths": ["*.Tests.csproj", "dotnet-tools.json", "*.cake", "*.yml"],
-			"addLabels": ["build"],
+			"addLabels": ["BuildAutomation", "Dependency Change"],
 			"automerge": true,
 			"semanticCommitType": "build"
 		},
@@ -40,7 +41,7 @@
 				"DryIoc"
 			],
 			"semanticCommitType": "fix",
-			"addLabels": ["enhancement"]
+			"addLabels": ["Dependency Change", "Enhancement"]
 		},
 		{
 			"matchPackageNames": [
@@ -48,7 +49,7 @@
 			],
 			"automerge": true,
 			"semanticCommitType": "build",
-			"addLabels": ["build"]
+			"addLabels": ["BuildAutomation", "Dependency Change"]
 		}
 	]
 }
