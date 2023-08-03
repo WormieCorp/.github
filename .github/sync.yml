@@ -14,7 +14,7 @@ group:
       - source: .github/configs/renovate-semantic.json
         dest: renovate.json
         replace: true
-    repes: |
+    repos: |
       WormieCorp/CCVARN
       WormieCorp/MediaManager
   - files:
