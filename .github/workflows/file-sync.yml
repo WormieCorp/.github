@@ -20,3 +20,4 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           PR_LABELS: Build
+          COMMIT_PREFIX: "chore(sync): "
