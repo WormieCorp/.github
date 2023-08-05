@@ -1,56 +1,56 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:base"
-	],
-	"semanticCommits": "enabled",
-	"labels": ["dependencies"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "semanticCommits": "enabled",
+  "labels": ["dependencies"],
     "packageRules": [
         {
             "matchManagers": ["github-actions"],
-			"addLabels": ["BuildAutomation", "Dependency Change"],
-			"semanticCommitType": "build"
+      "addLabels": ["BuildAutomation", "Dependency Change"],
+      "semanticCommitType": "build"
         },
-		{
-			"matchPackagePrefixes": ["Avalonia", "CommunityToolkit.Mvvm"],
-			"groupName": "Avalonia Packages",
-			"semanticCommitType": "fix",
-			"addLabels": ["Dependency Change", "Enhancement"]
-		},
-		{
-			"matchPackagePrefixes": ["Serilog"],
-			"groupName": "Serilog Packages",
-			"semanticCommitType": "fix",
-			"addLabels": ["Dependency Change", "Enhancement"]
-		},
-		{
-			"matchPackagePrefixes": ["Cake", "cake"],
-			"groupName": "Cake Packages",
-			"addLabels": ["BuildAutomation", "Dependency Change"],
-			"semanticCommitType": "build"
-		},
-		{
-			"matchPaths": ["*.Tests.csproj", "dotnet-tools.json", "*.cake", "*.yml"],
-			"addLabels": ["BuildAutomation", "Dependency Change"],
-			"automerge": true,
-			"semanticCommitType": "build"
-		},
-		{
-			"matchPackageNames": [
-				"LiteDB",
-				"System.Net.NameResolution",
-				"DryIoc"
-			],
-			"semanticCommitType": "fix",
-			"addLabels": ["Dependency Change", "Enhancement"]
-		},
-		{
-			"matchPackageNames": [
-				"GitVersionTask"
-			],
-			"automerge": true,
-			"semanticCommitType": "build",
-			"addLabels": ["BuildAutomation", "Dependency Change"]
-		}
-	]
+    {
+      "matchPackagePrefixes": ["Avalonia", "CommunityToolkit.Mvvm"],
+      "groupName": "Avalonia Packages",
+      "semanticCommitType": "fix",
+      "addLabels": ["Dependency Change", "Enhancement"]
+    },
+    {
+      "matchPackagePrefixes": ["Serilog"],
+      "groupName": "Serilog Packages",
+      "semanticCommitType": "fix",
+      "addLabels": ["Dependency Change", "Enhancement"]
+    },
+    {
+      "matchPackagePrefixes": ["Cake", "cake"],
+      "groupName": "Cake Packages",
+      "addLabels": ["BuildAutomation", "Dependency Change"],
+      "semanticCommitType": "build"
+    },
+    {
+      "matchPaths": ["*.Tests.csproj", "tests.props", "dotnet-tools.json", "*.cake", "*.yml"],
+      "addLabels": ["BuildAutomation", "Dependency Change"],
+      "automerge": true,
+      "semanticCommitType": "build"
+    },
+    {
+      "matchPackageNames": [
+        "LiteDB",
+        "System.Net.NameResolution",
+        "DryIoc"
+      ],
+      "semanticCommitType": "fix",
+      "addLabels": ["Dependency Change", "Enhancement"]
+    },
+    {
+      "matchPackageNames": [
+        "GitVersionTask"
+      ],
+      "automerge": true,
+      "semanticCommitType": "build",
+      "addLabels": ["BuildAutomation", "Dependency Change"]
+    }
+  ]
 }
