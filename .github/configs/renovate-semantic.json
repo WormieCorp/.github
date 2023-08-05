@@ -45,7 +45,8 @@
       "matchPackageNames": [
         "LiteDB",
         "System.Net.NameResolution",
-        "DryIoc"
+        "DryIoc",
+        "Pure.DI"
       ],
       "semanticCommitType": "fix",
       "addLabels": ["Dependency Change", "Enhancement"]
