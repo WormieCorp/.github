@@ -30,7 +30,13 @@
       "semanticCommitType": "build"
     },
     {
-      "matchPaths": ["*.Tests.csproj", "tests.props", "dotnet-tools.json", "*.cake", "*.yml"],
+      "matchPaths": [
+        "*.Tests.csproj",
+        "tests.props",
+        "dotnet-tools.json",
+        "*.cake",
+        "*.yml"
+      ],
       "addLabels": ["BuildAutomation", "Dependency Change"],
       "automerge": true,
       "semanticCommitType": "build"
