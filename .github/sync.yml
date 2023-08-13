@@ -3,15 +3,9 @@ group:
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
-      - source: renovate.json
-        dest: renovate.json
-        replace: false
-    repos: |
-      WormieCorp/CCVARN
-      WormieCorp/MediaManager
-  - files:
       - source: .github/configs/renovate-semantic.json
         dest: renovate.json
+        replace: false
     repos: |
       WormieCorp/CCVARN
       WormieCorp/MediaManager
